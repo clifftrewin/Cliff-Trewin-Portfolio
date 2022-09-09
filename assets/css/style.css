@@ -1,0 +1,219 @@
+body {
+    font-family: Tahoma, Verdana, Arial, sans-serif;
+    background-color: aliceblue;}
+
+    /* Main Header and Navigation */
+header {  
+ width: 100%;
+ font-family: Tahoma, Verdana, Arial, sans-serif;
+ background-color: midnightblue; 
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+ align-items: center;
+}
+
+header h1 { 
+    display: inline-block;
+    font-size: 48px;
+    padding-left: 50px;
+    padding-right:10px;
+    color: midnightblue;
+    background-color: paleturquoise;
+}
+
+/* Navigation */
+
+.portfolio-link {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 50px;
+}
+
+header ul a {  
+    font-size: 32px;
+    padding: 0px 5px;
+    color: paleturquoise;
+    text-decoration: underline;
+}
+
+/* Top Figure */
+figure {
+    margin: 0px;
+    position: relative;
+} 
+
+#top-image {   
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+} 
+
+#cool-subtitle {
+    font-size: 32px;
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    color: midnightblue;
+    background-color: paleturquoise;
+}
+
+
+/* About Me */
+
+#about-me {
+    color: midnightblue;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:32px;
+    margin-bottom: 32px;
+}
+
+#about-me-title {
+    flex: 0 0 175px;
+    /* display: inline-block; */
+    height: 200px;
+    /* width: 200px; */
+    font-size: 32px;
+    border-right: 5px solid midnightblue;
+    text-align: right;
+    margin-right: 16px;
+   }
+    
+#about-me-content {
+    flex: 1 0 0%;
+    display: inline-block;
+    font-size: 16px;
+    width: 50%;
+    height: 200px;
+    color: midnightblue;
+    margin-left: 16px;
+    background-color: palegreen;
+}
+
+#st1 { 
+   margin-top: 0; 
+   text-align: right;
+}
+
+
+/* First Work Section */
+.project-one-button {
+    position: absolute;
+    left: 0px;
+    bottom: 16px;
+    font-size: 32px;
+    padding-left: 50px;
+    padding-right: 10px;
+    color: midnightblue;
+    background-color: paleturquoise;
+}
+
+.button-type {
+    font-size: 16px;
+}
+
+#work {
+display: flex;
+flex-wrap: wrap;
+color: midnightblue;
+}
+
+#w1-image {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+#w2-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+#work-project-one {
+    position: relative;
+    flex: 5 0 200px;
+    height: 400px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    border: 10px solid paleturquoise;
+}
+
+#work-title {
+    flex: 0 0 175px;
+    font-size: 32px;
+    height: 436px;
+    border-right: 5px solid midnightblue;
+}
+
+/* Second Work Section */
+
+#work-two {
+    display: flex;
+    flex-wrap: wrap;
+    color: midnightblue;
+    }
+
+    #work-title-two {
+        flex: 0 0 175px;
+        font-size: 32px;
+        height: 236px;
+        border-right: 5px solid midnightblue;
+    }
+
+.work-project {
+    flex: 1 1 100px;
+    height: 200px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    border: 10px solid paleturquoise;
+}
+
+/* Third Work Section */
+
+#work-three {
+    display: flex;
+    flex-wrap: wrap;
+    color: midnightblue;
+    }
+
+    /* Contact Section */
+
+    #contact {
+        width: 100%;
+        color: midnightblue;
+        display: flex;
+        justify-content: space-between;
+        margin-top:32px;
+    }
+
+    #contact-title {
+        flex: 0 0 175px;
+        /* display: inline-block; */
+        height: 100px;
+        /* width: 200px; */
+        font-size: 32px;
+        border-right: 5px solid midnightblue;
+        text-align: right;
+        margin-right: 16px;   
+    }
+    .contact-link {
+
+        flex: 1 1 600px;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .contact-link a {  
+        font-size: 24px;
+        padding-left: 10px;
+        color: midnightblue;
+        text-decoration: underline;
+    }
+    

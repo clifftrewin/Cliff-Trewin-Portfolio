@@ -65,7 +65,6 @@ figure {
 #about-me {
     color: midnightblue;
     display: flex;
-    flex-wrap: wrap;
     margin-top:32px;
     margin-bottom: 32px;
 }
@@ -83,7 +82,6 @@ figure {
     
 #about-me-content {
     flex: 1 0 0%;
-    display: inline-block;
     font-size: 16px;
     /*width: 50%;*/
     height: 150px;
@@ -117,7 +115,6 @@ figure {
 
 #work {
 display: flex;
-flex-wrap: wrap;
 color: midnightblue;
 }
 
@@ -171,7 +168,6 @@ color: midnightblue;
 
     #work-title-two {
         flex: 0 0 175px;
-        font-size: 32px;
         height: 236px;
         border-right: 5px solid midnightblue;
     }
@@ -190,7 +186,6 @@ color: midnightblue;
 
 #work-three {
     display: flex;
-    flex-wrap: wrap;
     color: midnightblue;
     }
 
@@ -239,4 +234,61 @@ color: midnightblue;
         }
 
     }
+
+    @media screen and (max-width: 510px) {
+
+#about-me {
+    flex-direction: column;
+    text-align: center;
+}
+
+#about-me-title {
+      flex: 0 0 100px;
+      height: 100px;
+      border-right: none;
+      text-align: center;
+}
+
+#st1 {
+    text-align: center;
+}
+
+#work {
+   flex-direction: column;
+}
+
+#work-title {
+    flex: 0 0 50px;
+    height: 50px;
+    border-right: none;
+}
+
+#work-two {
+    flex-direction: column;
+}
+
+#work-title-two {
+    flex: 0 0 0px;
+    height: 0px;
+    border-right: none;
+}
+
+#work-three {
+    flex-direction: column;
+}
+
+#contact {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#contact-title {
+    flex: 0 0 100px;
+    height: 100px;
+    border-right: none;
+    text-align: center;
+}
+
+    }
+
     

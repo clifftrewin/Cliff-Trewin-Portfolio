@@ -3,6 +3,7 @@ body {
     background-color: aliceblue;}
 
     /* Main Header and Navigation */
+    /* Header and Navigation Flex Box */
 header {  
  width: 100%;
  font-family: Tahoma, Verdana, Arial, sans-serif;
@@ -23,7 +24,7 @@ header h1 {
 }
 
 /* Navigation */
-
+/* Navigation Links Flexbox */
 .portfolio-link {
     list-style: none;
     display: flex;
@@ -35,7 +36,6 @@ header ul a {
     font-size: 32px;
     padding: 0px 5px;
     color: paleturquoise;
-    /*text-decoration: underline;*/
 }
 
 /* Top Figure */
@@ -61,7 +61,7 @@ figure {
 
 
 /* About Me */
-
+/* About Me Flexbox */
 #about-me {
     color: midnightblue;
     display: flex;
@@ -97,6 +97,7 @@ figure {
 
 
 /* First Work Section */
+
 .project-one-button {
     position: absolute;
     left: 0px;
@@ -114,11 +115,7 @@ figure {
     background-color: palegreen;
 }
 
-
-.button-type {
-    font-size: 16px;
-}
-
+/* First Work flexbox */
 #work {
 display: flex;
 color: midnightblue;
@@ -129,7 +126,6 @@ color: midnightblue;
     height: 400px;
     object-fit: cover;
     transition-duration: 1s;
-    /*filter: brightness(100%);*/
     filter: opacity(100%);
 }
 
@@ -189,6 +185,8 @@ color: midnightblue;
     background-color: palegreen;
 }
 
+/* Second Work flexbox */
+
 #work-two {
     display: flex;
     flex-wrap: wrap;
@@ -201,6 +199,7 @@ color: midnightblue;
         border-right: 5px solid midnightblue;
     }
 
+
 .work-project {
     position: relative;
     flex: 1 1 100px;
@@ -212,7 +211,7 @@ color: midnightblue;
 }
 
 /* Third Work Section */
-
+/* Third Work flexbox */
 #work-three {
     display: flex;
     color: midnightblue;
@@ -228,9 +227,10 @@ color: midnightblue;
         margin-top:32px;
     }
 
+    /* Contacts flexbox */
+
     #contact-title {
         flex: 0 0 175px;
-        /* display: inline-block; */
         height: 100px;
         /* width: 200px; */
         font-size: 32px;
@@ -238,6 +238,9 @@ color: midnightblue;
         text-align: right;
         margin-right: 0px;   
     }
+
+    /* Contact Links */
+
     .contact-link {
 
         flex: 1 1 0px;
@@ -266,6 +269,8 @@ color: midnightblue;
 
     @media screen and (max-width: 510px) {
 
+/* About Me flexbox Responsiveness */
+
 #about-me {
     flex-direction: column;
     text-align: center;
@@ -281,7 +286,7 @@ color: midnightblue;
 #st1 {
     text-align: center;
 }
-
+/* Project Section flexbox Responsivness */
 #work {
    flex-direction: column;
 }
@@ -305,6 +310,9 @@ color: midnightblue;
 #work-three {
     flex-direction: column;
 }
+
+/* Contact flexboxes Responsiveness */
+
 
 #contact {
     flex-direction: column;

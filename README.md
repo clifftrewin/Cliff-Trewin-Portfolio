@@ -24,7 +24,7 @@ N/A
 
 ## Deployment
 
-https://clifftrewin.github.io/Cliff-Trewin-Portfolio/
+[Cliff Trewin Portfolio](https://clifftrewin.github.io/Cliff-Trewin-Portfolio/)
 
 ## Credits
 

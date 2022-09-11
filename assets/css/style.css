@@ -106,8 +106,14 @@ figure {
     padding-right: 10px;
     text-decoration: none;
     color: midnightblue;
+    transition-duration: 1s;
     background-color: paleturquoise;
 }
+
+.project-one-button:hover {
+    background-color: palegreen;
+}
+
 
 .button-type {
     font-size: 16px;
@@ -122,12 +128,28 @@ color: midnightblue;
     width: 100%;
     height: 400px;
     object-fit: cover;
+    transition-duration: 1s;
+    /*filter: brightness(100%);*/
+    filter: opacity(100%);
+}
+
+#w1-image:hover {
+    /*filter: brightness(200%);*/
+    filter: opacity(50%);
 }
 
 #w2-image {
     width: 100%;
     height: 200px;
     object-fit: cover;
+    transition-duration: 1s;
+    /*filter: brightness(100%);*/
+    filter: opacity(100%);
+}
+
+#w2-image:hover {
+    /*filter: brightness(200%);*/
+    filter: opacity(50%);
 }
 
 #work-project-one {
@@ -139,6 +161,7 @@ color: midnightblue;
     margin-bottom: 16px;
     border: 10px solid paleturquoise;
 }
+
 
 #work-title {
     flex: 0 0 175px;
@@ -158,8 +181,14 @@ color: midnightblue;
     padding-right: 10px;
     text-decoration: none;
     color: midnightblue;
+    transition-duration: 1s;
     background-color: paleturquoise;
 }
+
+.project-button:hover {
+    background-color: palegreen;
+}
+
 #work-two {
     display: flex;
     flex-wrap: wrap;
